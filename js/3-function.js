@@ -152,3 +152,9 @@ console.log(b2);
 const b3 = sum4(-1, 6);
 console.log(b3);
 
+ function sum(a, b) {
+    return a +b
+}
+ 
+const value = sum(1, 2);
+console.log(value); 

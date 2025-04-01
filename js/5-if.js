@@ -59,3 +59,17 @@ if (5 == clientvalue) {
 } else {
     console.log('Ne-tenkina');
 }
+
+
+let hour = 20
+
+if (hour >=6 && hour <= 12) 
+    console.log('Labas rytas');
+
+else if (hour >= 12 && hour <18)
+    console.log('Laba diena'); 
+else 
+    console.log('Labas vakaras'); 
+
+ 
+
