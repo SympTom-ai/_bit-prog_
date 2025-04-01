@@ -2,13 +2,13 @@
 - kintamieji (atminties lasteles,duomenu tipai) :
     - ~~tekstas (string)~~
     - ~~skaiciai(numebr)~~
-    - logines reiksmes(boolean)
-    - sarasas(array)
-    - objektas(object)
-    - null
-    - undefined
+    - ~~logines reiksmes(boolean)~~
+    - ~~sarasas(array)~~
+    - ~~objektas(object)~~
+    - ~~null~~(reiksme ne egzistuoja , bet ketiname ja gauti/paskaiciuoti)
+    - ~~undefined~~
 - funkcijos (perpanaudjomaos kodo blokas/logika):
-     - paprasta
+     - ~~paprasta~~
      - rodykline
      - metodai:
        - string methods
