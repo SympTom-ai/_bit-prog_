@@ -96,3 +96,41 @@ console.log(hiNormalSize)
 
 console.log('\nSLice\n')
 console.log('tortas'.slice(1))
+
+
+//trim
+console.clear();
+console.log('\nTrim\n')
+
+console.log(`"${'Agurkas'.trim()}"`);
+console.log(`"${'labas   Agurkas'.trim()}"`);
+console.log(`"${'Agurkas    labas'.trim()}"`);
+console.log(`"${'   Agurkas   '.trim()}"`);
+console.log(`"${'           Agurkas'.trimStart()}"`);
+console.log(`"${'Agurkas   labas         '.trimEnd()}"`);
+
+//split
+
+console.clear();
+
+console.log('\nSplit\n');
+
+const t1 = 'zodis';
+const t1Parts = t1.split('o');
+const t1Parts2 = t1.split('od');
+const t1Parts3 = t1.split('z');
+console.log(t1Parts);
+console.log(t1Parts2);
+console.log(t1Parts3);
+
+const t2 = 'Kultivatorius';
+const t2Parts = t2.split('t');
+
+console.log(t2Parts);
+
+// charCodeAt
+
+console.log('A'.charCodeAt(0));
+
+const s1 = String.fromCharCode(1896);
+console.log(s1);
