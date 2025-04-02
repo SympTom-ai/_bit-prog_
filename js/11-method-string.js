@@ -54,3 +54,45 @@ console.log('Audi'.endsWith('V'));
 console.log('Audi'.endsWith('h'));
 console.log('Audi'.endsWith('d'));
 console.log('Audi'.endsWith('i'));
+
+//Repeat
+console.log('\nRepeat\n')
+console.log('a');
+console.log('a'.repeat(60));
+console.log('a');
+
+const symbol= 'Labas';
+const megasymbol = symbol.repeat(32);
+
+console.log(symbol)
+console.log(megasymbol)
+
+function stringRepeat(text, count) {
+    let result = '';
+    
+    for (let i = 0; i < count; i++);{
+        result += text;
+    }
+    
+    return result;
+}
+
+console.log(stringRepeat('rikiki', 5));
+
+//replace
+console.log('\nreplace\n')
+console.log('a');
+console.log('LabDienele'.replace('b','-'));
+console.log('a');
+
+console.log('ananasas'.replace('a',''));
+console.log('ananasas'.replaceAll('a',''));
+console.log('ananasas'.replaceAll('na',''));
+
+const hi = 'Labas rytas, Lietuva!';
+const hiNormalSize = hi.replaceAll(' ','').length
+
+console.log(hiNormalSize)
+
+console.log('\nSLice\n')
+console.log('tortas'.slice(1))

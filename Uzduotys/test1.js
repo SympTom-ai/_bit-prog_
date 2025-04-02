@@ -19,6 +19,19 @@ function checkNumber(num) {
 }
 
 // Corrected function call
-console.log(checkNumber(2));
-afsbfkbasjfbb
 
+console.clear();
+
+let num = (1,1,2,3,3,3,4)
+function checkNumber(num) {
+    if (num >= 0) {
+        return 'Skaicius yra teigiamas';
+    } else {
+        console.log('Skaicius yra neigiamas.');
+    }
+}
+
+for (let i = 0; i < data.length; i += 2) {
+    const mietas = data[i];
+    const atstumas = data[i + 1];
+}
