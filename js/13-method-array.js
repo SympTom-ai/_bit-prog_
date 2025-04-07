@@ -83,5 +83,25 @@ const texts = ['Kebabas', 'Pica', 'Sushi', 'Salotos'];
 
 const products = `Reikalingi produktai: ${texts.join(', ')}`;
 console.log(products);
+console.clear();
 
+console.log(texts);
+texts.reverse();
+console.log(texts);
+
+const c1 = [1, 2, 3, 4, 5];
+const c2 = [6, 7, 8, 9, 10];
+const c3 = [11, 12, 13, 14, 15];
+
+const c5 = c1.concat(c1, c2);
+console.log(c5);
+const c6 = c2.concat(c2, c3);
+
+console.clear();
+
+const s1 = [11, 22, 33, 44, 55]
+console.log(s1);
+
+s1.splice(1, 2);
+console.log(s1);
 
