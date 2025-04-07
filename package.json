@@ -4,6 +4,7 @@
   "description": "Projekts JS",
   "main": "index.js",
   "scripts": {
+    "names-split-join":"node --watch ./task/names-split-join.js",
     "method-array": "node --watch ./js/13-method-array.js",
     "money-format":"node --watch ./task/money-format.js",
     "method-number": "node --watch ./js/12-method-number.js",
