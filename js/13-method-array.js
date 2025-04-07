@@ -61,3 +61,27 @@ for (let i = 0; i < n2.length; i++) {
 }
 
 console.log(n12);
+
+const numbers1 = [1, 2, 3, 4, 5];
+
+numbers1.push(6);
+console.log(numbers1);
+
+const g1 = numbers1.pop();
+console.log(g1);
+
+
+const g2 = numbers1.shift();
+console.log(g2)
+
+
+const magic = [15, 5, 3, 12, 45, 31];
+console.log(magic.indexOf(3));
+console.log(magic.indexOf(1));
+
+const texts = ['Kebabas', 'Pica', 'Sushi', 'Salotos'];
+
+const products = `Reikalingi produktai: ${texts.join(', ')}`;
+console.log(products);
+
+
