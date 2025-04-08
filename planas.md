@@ -11,17 +11,17 @@
      - ~~paprasta~~
      - rodykline
      - metodai:
-       - string methods
-       - number methods
+       - ~~string methods~~
+       - ~~number methods~~
        - array methods
        - object methods
 - palyginimas:
    - ~~if~~
-   - ternary
+   - ~~ternary~~
    - switch
 - ciklas:
-   - for
+   - ~~for~~
    - while
-   - for-of
+   - ~~for-of~~
    - for-in
 - ivykiu stebejimas (event listeners)

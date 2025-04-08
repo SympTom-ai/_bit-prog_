@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "ternary": "node --watch ./js/15-ternary.js",
+    "while": "node --watch ./js/17-while.js",
+    "for-of": "node --watch ./js/16-for-of.js",
     "fancy-math":"node --watch ./task/fancy-math.js",
     "arrow": "node --watch ./js/14-arrow.js",
     "names-split-join":"node --watch ./task/names-split-join.js",
