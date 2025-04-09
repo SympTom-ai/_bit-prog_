@@ -31,7 +31,15 @@ function checkNumber(num) {
     }
 }
 
-for (let i = 0; i < data.length; i += 2) {
-    const mietas = data[i];
-    const atstumas = data[i + 1];
+
+console.clear();
+
+function reverseWords(str){
+    let result = 0;
+    
+    for (let i =0; i<str.length; i++){
+        result += str[str.length -i];
+    }
+  return result; // reverse those words
 }
+console.log(reverseWords(1 ,1,2,3,3,3,4));

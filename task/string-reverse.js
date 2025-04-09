@@ -27,10 +27,29 @@ console.log(stringReverse('dgsgf'));
 console.log(stringReverse('fesgfsesrg'));
 
 console.log(stringReverse([]));
-let words = ["The greatest victory is that which requires no battle"]
 
-function reverseWords(words){
-    return words.reverse
+
+function reverseWords(str)
+{
+  let arr = str.split('');
+  let result = ''
+  for (let i = arr.length - 1; i >= 0; i--){
+    if (arr[1] == '') continue;
+    if(result.length > 0) result += ''
+    result += arr[i]
   }
 
-  console.log(reverseWords(words));
+  return result; // reverse those words
+}
+
+console.log(reverseWords("The greatest victory is that which requires no battle"));
+
+console.clear();
+
+function wrap(_value) {
+    return
+    {
+    };
+  }
+
+  console.log(wrap(5)); // undefined

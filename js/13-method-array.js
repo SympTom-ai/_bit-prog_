@@ -100,7 +100,7 @@ const c6 = c2.concat(c2, c3);
 console.clear();
 
 const s1 = [11, 22, 33, 44, 55]
-og(s1);
+
 
 
 
@@ -197,3 +197,36 @@ console.log(texts5Updated);
 
 const texts5Updated2 = texts5.filter(t => t);
 console.log(texts5Updated2);
+
+console.clear();
+
+// fill
+const default5 = [0, 0, 0, 0, 0];
+const default6 = Array(6).fill(99);
+console.log(default6);
+
+const zeros = Array(10).fill(0);
+console.log(zeros);
+
+const string = Array(10).fill('labas' + ' ' + 'rytas' + ' ' + 'Lietuva');
+
+string.fill('labas', 0, 5);
+console.log(string);
+
+// every
+
+const trees = ['Berzas', 'Pušis', 'Eglė', 'Klevas', 'Ąžuolas'];
+const alltreesValid = trees.every(s => s.length > 0);
+console.log(alltreesValid);
+
+const alltreesNamesSizes = trees.every(s => s.length === 5);
+console.log(alltreesNamesSizes);
+
+// some 
+const someTrees = trees.some(s => s.length > 5);
+console.log(someTrees);
+
+const someTrees2 = trees.some(s => s.length > 10);
+console.log(someTrees2);
+
+// sort 

@@ -4,6 +4,7 @@
   "description": "Projekts JS",
   "main": "index.js",
   "scripts": {
+    "sort": "node --watch ./js/19-sort.js",
     "for-in": "node --watch ./js/18-for-in.js",
     "ternary": "node --watch ./js/15-ternary.js",
     "while": "node --watch ./js/17-while.js",

@@ -121,3 +121,47 @@ for (let i = 0; i < 10000; i++);{
 }
 
 console.log(counts);
+
+console.clear();
+
+function arg (){
+    let a = 2; // Initialize 'a' with a value
+    a = 2;  // Square the value of 'a'
+    return a**2;  // Return the squared value
+}
+console.log(arg());
+
+items = ["a", "b", "c", "d"]
+items.push
+
+console.log(items);
+
+function getMax1()
+{
+  var max = 'name' + ':' + 'Max Headroom';
+  return max;
+}
+
+function getMax2()
+{
+  return 'name' +':' + 'Max Headroom'
+}
+
+console.log(getMax1());
+console.log(getMax2());
+
+function disemvowel(str) {
+   let str1 = str.replace(/[aeiou]/gi, '');
+   return str1;
+  }
+
+console.log(disemvowel('This website is for losers LOL!'));
+
+function areYouPlayingBanjo(name) {
+    if (name[0].toLowerCase() === 'r') {
+        return name + " you are playing banjo!";
+    } else {
+        return name + " you are not playing banjo!";
+    }
+}
+
