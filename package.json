@@ -4,6 +4,8 @@
   "description": "Projekts JS",
   "main": "index.js",
   "scripts": {
+    "destruct": "node --watch ./js/21-destructivization-rest.js",
+    "reduce": "node --watch ./js/20-reduce.js",
     "sort": "node --watch ./js/19-sort.js",
     "for-in": "node --watch ./js/18-for-in.js",
     "ternary": "node --watch ./js/15-ternary.js",
