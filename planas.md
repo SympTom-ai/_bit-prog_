@@ -9,19 +9,19 @@
     - ~~undefined~~
 - funkcijos (perpanaudjomaos kodo blokas/logika):
      - ~~paprasta~~
-     - rodykline
-     - metodai:
+     - ~~rodykline~~
+     - ~~metodai:~~
        - ~~string methods~~
        - ~~number methods~~
-       - array methods
-       - object methods
+       - ~~array methods~~
+       - ~~object methods~~
 - palyginimas:
    - ~~if~~
    - ~~ternary~~
-   - switch
+   - ~~switch~~
 - ciklas:
    - ~~for~~
    - while
    - ~~for-of~~
-   - for-in
+   - ~~for-in~~
 - ivykiu stebejimas (event listeners)
