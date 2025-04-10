@@ -230,3 +230,18 @@ const someTrees2 = trees.some(s => s.length > 10);
 console.log(someTrees2);
 
 // sort 
+
+
+
+  function testEven(n) {
+    if(n % 2 === 0)
+      {
+        return true
+      }
+     else{ 
+       return false
+   }
+ }
+
+ console.log(testEven(0));
+
