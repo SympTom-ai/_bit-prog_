@@ -7,3 +7,12 @@ for (const s in symbols) {
 }
 
 console.log(max);
+
+function checkForFactor (base, factor) {
+    base >= 0
+    if (base / factor)
+      return true
+     
+
+  }
+  console.log(checkForFactor(8,3))
